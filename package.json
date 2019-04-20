@@ -14,7 +14,10 @@
   "version": "3.6.3",
   "installVersion": 9,
   "author": "Roger Wang <wenrui@gmail.com> (based on node-gyp)",
-  "repository": { "type": "git", "url": "https://github.com/nwjs/nw-gyp.git" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nwjs/nw-gyp.git"
+  },
   "preferGlobal": true,
   "bin": "./bin/nw-gyp.js",
   "main": "./lib/nw-gyp.js",
@@ -30,7 +33,7 @@
     "request": "2",
     "rimraf": "2",
     "semver": "~5.3.0",
-    "tar": "^2.0.0",
+    "tar": "^4.4.8",
     "which": "1"
   },
   "engines": {
